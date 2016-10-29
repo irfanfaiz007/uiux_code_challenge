@@ -1,0 +1,43 @@
+// start header
+header{
+  background-color: $color-main;
+  border-bottom: 1px solid $color-dark;
+  min-height: 96px;
+  // width: 100%;
+  padding: 1.4em 2.4em;
+
+  .media {
+   width: auto;
+
+   .media-left{
+     float: left;
+     padding: 0 4px;
+
+     .heading-logo{
+       width: 94px;
+     }
+   }
+
+   .media-body{
+     float: left;
+     padding: 0 4px;
+
+     h1 {
+       color: $color-darker;
+       font-weight: 400;
+       margin-bottom: 0;
+     }
+
+     p{
+       color: $color-blue;
+       font-weight: 600;
+       margin-top: 0;
+       text-transform: uppercase;
+
+     }
+   }
+  }
+}
+
+
+// end header

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div class="container" id="container">
+      <aside id="aside">
+        <div class="logo-area">
+          <div class="logo">
+            <div class="blue-arrow">
+              <hr class="dashed">
+              <div href="#" class="right">
+                <img src="images/arrow-right.svg">
+              </div>
+            </div>
+            <img class="logo-img" src="images/logo.svg">
+            <div class="green-arrow">
+              <hr class="dashed">
+              <div class="top">
+                <img src="images/arrow-top.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="output-area">
+          <span>
+            <p>This Step has no input.<p>
+            <p>It can only generate output based on the scanning of a document.<p>
+          </span>
+        </div>
+      </aside>
+      
+      <header>
+        <div class="media col-6">
+          <div class="media-left">
+            <img class="heading-logo hidden-xs visible-sm" src="images/logo.svg">
+          </div>
+          <div class="media-body">
+            <h1>
+              Create Contact
+              <a href="#"><img src="images/edit.svg"></a>
+              <a href="#"><img src="images/question.svg"></a>
+            </h1>
+      
+            <p class="bold">Document Generation</p>
+          </div>
+        </div>
+        <br>
+          <button class="btn btn-default pull-right">Cancel</button>
+      </header>
+      
+      <div class="content">
+        <div class="row">
+          <form class="col-12" id="upload" action="index.html" method="POST" enctype="multipart/form-data">
+            	<div id="filedrag">
+                <p>Drop a file here for upload or</p>
+                <label class="custom-file-upload">
+                    <input type="file" id="fileselect" name="fileselect[]" accept="application/pdf,application/msword,application/msexcel"/>
+                    Select it from your machine
+                </label>
+            	</div>
+          </form>
+        </div>
+      
+        <div class="result" id="result" onload="result()">
+          <div class="row">
+            <div class="item col-12">
+              <div class="item-icon" id="img">
+                <img src="images/pdf-type.svg">
+              </div>
+              <div class="item-info">
+                <h3><span id="demo">Contract.pdf</span></h3>
+                <p id="invalid">Ready for processing. Please insert tag format.</p>
+              </div>
+            </div>
+          </div>
+          <br>
+      
+          <div class="row" id="on-error-hide">
+            <div class="form-group col-12">
+              <label>Tag Structure</label>
+              <input class="form-control col-3 block pull-left" placeholder="e.g:{}TAG NAME{}">
+              <button class="btn btn-default block pull-left">Process File</button>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      
+  </div>
+  <script type="text/javascript" src="js/filedrag.js"></script>
+</body>
+</html>

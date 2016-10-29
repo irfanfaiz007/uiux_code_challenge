@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M33,66 C51.2253967,66 66,51.2253967 66,33 C66,14.7746033 51.2253967,0 33,0 C14.7746033,0 0,14.7746033 0,33 C0,51.2253967 14.7746033,66 33,66 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.66" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0276551178 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="14.52" height="10.56" rx="1.32"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.52" height="10.56" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polygon id="path-5" points="0 0 13.0650906 0 17.16 4.39960382 17.16 22.44 0 22.44"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.16" height="22.44" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Object-Editors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Document-Generation-1" transform="translate(-280.000000, -27.000000)">
+            <g id="Group-2" transform="translate(287.000000, 32.000000)">
+                <g id="Group-18-Copy-2">
+                    <g id="Group-3-Copy-11">
+                        <g id="Oval-85-Copy-3">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#F4F4F4" stroke-width="1.32" fill-opacity="0.100000001" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                    <g id="Group-16-Copy" transform="translate(26.400000, 27.720000)">
+                        <use id="Rectangle-241" stroke="#0B8CB5" mask="url(#mask-4)" stroke-width="2.64" xlink:href="#path-3"></use>
+                        <polygon id="Path-95" fill="#0B8CB5" transform="translate(9.300935, 11.919600) rotate(90.000000) translate(-9.300935, -11.919600) " points="7.32093536 9.21866461 7.32093536 14.6205353 11.2809354 9.34053532"></polygon>
+                    </g>
+                </g>
+                <g id="Group-52" transform="translate(25.080000, 22.440000)">
+                    <use id="Rectangle-305" stroke="#1A80BC" mask="url(#mask-6)" stroke-width="2.64" fill="#FFFFFF" xlink:href="#path-5"></use>
+                    <path d="M16.2879686,3.98145228 C14.8115529,2.14420602 12.06975,0.029199025 12.06975,0.029199025 L12.06975,6.83787057 L13.3752896,6.83787057 L17.5412152,6.83787057 C17.5412152,6.83787057 17.7643842,5.81869855 16.2879686,3.98145228 Z" id="Path-180" fill="#1A80BC"></path>
+                    <rect id="Rectangle-307" fill="#1A80BC" x="4.389" y="10.56" width="8.778" height="1.32"></rect>
+                    <rect id="Rectangle-307" fill="#1A80BC" x="4.389" y="13.2" width="8.778" height="1.32"></rect>
+                    <rect id="Rectangle-308" fill="#1A80BC" x="4.389" y="15.84" width="4.389" height="1.32"></rect>
+                    <rect id="Rectangle-306" fill="#1A80BC" x="4.389" y="3.96" width="4.389" height="1.32"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
